@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <div class="header">
+      <h6>Cheatsheet</h6>
+      <h1>The Box Model</h1>
+    </div>
+
+    <div class="margin">
+      <div class="list">
+        <h3>Margin Collapse</h3>
+        <p>CSS margin collapse occurs when the top and bottom margins of blocks are combined into a single margin equal to the largest individual block margin.</p>
+        <p>Margin collapse only occurs with vertical margins, not for horizontal margins.</p>
+      </div>
+
+      <div class="list2">
+        <h3 class="example">example:</h3>
+        <p>.block-one {
+        <br>&nbsp;&nbsp;margin:&nbsp 20px;
+        <br>}
+</p>
+      </div>
+    </div>
+
+    <div class="margin">
+      <div class='list'>
+        <h3>CSS auto keyword</h3>
+        <p>The value auto can be used with the property margin to horizontally center an element within its container. The margin property will take the width of the element and will split the rest of the space equally between the left and right margins.</p>
+      </div>
+      <div class="list2">
+        <h3 class="example">example:</h3>
+        <p>.ediv {<br>
+  margin: auto;<br>
+}<br></p>
+      </div>
+    </div>
+
+    <div class="margin">
+      <div class="list">
+        <h3>Dealing with overflow</h3>
+        <p>If content is too large for its container, the CSS overflow property will determine how the browser handles the problem.</p>
+
+        <p>By default, it will be set to visible and the content will take up extra space. It can also be set to hidden, or to scroll, which will make the overflowing content accessible via scroll bars within the original container.</p>
+      </div>
+
+      <div class="list2">
+        <h3 class="example">example:</h3>
+        <p>.small-block {<br>
+  overflow: scroll;<br>
+}<br></p>
+      </div>
+    </div>
+    <div class="margin">
+      <div class="list">
+        <h3>Height and Width Maximums/Minimums</h3>
+        <p>The CSS min-width and min-height properties can be used to set a minimum width and minimum height of an element’s box. CSS max-width and max-height properties can be used to set maximum widths and heights for element boxes.</p>
+      </div>
+      <div class="list2">
+        <h3 class="example">example:</h3>
+        <p>.column {<br>
+  max-width: 200px;<br>
+  width: 500px;<br>
+}<br></p>
+      </div>
+    </div>
+    <div class="margin">
+      <div class="list">
+        <h3>The visibility Property</h3>
+        <p>
+The CSS visibility property is used to render hidden objects invisible to the user, without removing them from the page. This ensures that the page structure and organization remain unchanged.</p>
+      </div>
+      <div class="list2">
+        <h3 class="example">example:</h3>
+        <p>
+.invisible-elements {<br>
+  visibility: hidden;<br>
+}<br></p>
+      </div>
+    </div>
+        <div class="margin">
+      <div class="list">
+        <h3>The property box-sizing of CSS box model</h3>
+        <p>The CSS box model is a box that wraps around an HTML element and controls the design and layout. The property box-sizing controls which aspect of the box is determined by the height and width properties. The default value of this property is content-box, which renders the actual size of the element including the content box; but not the paddings and borders. The value border-box, on the other hand, renders the actual size of an element including the content box, paddings, and borders.</p>
+      </div>
+      <div class="list2">
+        <h3 class="example">example:</h3>
+        <p>.container {<br>
+  box-sizing: border-box;<br>
+}<br></p>
+  </div>
+    </div>
+     <div class="margin">
+      <div class="list">
+        <h3>CSS box-sizing: border-box</h3>
+        <p>he value border-box of the box-sizing property for an element corresponds directly to the element’s total rendered size, including padding and border with the height and width properties.
+
+The default value of the border-box property is content-box. The value border-box is recommended when it is necessary to resize the padding and border but not just the content. For instance, the value border-box calculates an element’s height as follows: height = content height + padding + border.</p>
+      </div>
+      <div class="list2">
+        <h3 class="example">example:</h3>
+        <p>#box-example {<br>
+  box-sizing: border-box;<br>
+}<br></p>
+      </div>
+    </div>
+
+  </body>
+</html>
